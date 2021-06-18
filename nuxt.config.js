@@ -4,12 +4,12 @@ export default {
 
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
-  /*router: {
+  /* router: {
      base: '/barista/'
-  },*/
+  }, */
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'barista-site',
+    title: 'Barista - Caffeine tracker',
     htmlAttrs: {
       lang: 'en',
     },
