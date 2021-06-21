@@ -1,7 +1,7 @@
 <template>
   <div class="gradient leading-relaxed tracking-wide flex flex-col">
     <Nav />
-    <div class="container mx-auto h-screen">
+    <div class="container mx-auto">
       <div class="px-3 lg:px-0">
         <div class="bg-gray-100 rounded-xl p-8">
           <h1
@@ -22,9 +22,9 @@
           any time in the app.
         </div>
 
-        <div class="bg-gray-100 rounded-xl p-8 mt-8">
-          <h2 class="text-lg font-semibold">User Agreement</h2>
-          <h3 class="text-lg font-semibold">Subscription</h3>
+        <div class="bg-gray-100 rounded-xl p-8 mt-8 mb-8">
+          <h2 class="text-xl font-bold">User Agreement</h2>
+          <h3 class="text-xl font-semibold">Subscription</h3>
           Some features of the app you purchase a subscription. Payment will be
           charged to your Apple ID account upon confirmation of purchase. Your
           subscription renews automatically, unless it is canceled at least 24
@@ -34,12 +34,12 @@
           account settings on the App Store after purchase. Subscription
           payments are non-refundable.
 
-          <h3 class="text-lg font-semibold">Termination</h3>
+          <h3 class="text-xl font-semibold">Termination</h3>
           We may, in our sole discretion, terminate or suspend your access to
           all or part of the App at any time, with or without notice, for any
           reason, including, without limitation, violation of these conditions.
 
-          <h3 class="text-lg font-semibold">Warning</h3>
+          <h3 class="text-xl font-semibold">Warning</h3>
           YOU AGREE THAT YOUR USE OF THE APPLICATION WILL BE AT YOUR OWN RISK.
           THE APPLICATION IS PROVIDED ON AN "AS IS" AND "AS AVAILABLE" BASIS FOR
           YOUR USE. TO THE FULLEST EXTENT PERMITTED BY LAW, WE EXPRESSLY
@@ -51,7 +51,7 @@
           APPLICATION WILL BE CORRECTED AND DO NOT ASSUME RESPONSIBILITY FOR THE
           CONDUCT OF USERS OF THE APPLICATION, ONLINE OR OFFLINE.
 
-          <h3 class="text-lg font-semibold">Limitation of Liability</h3>
+          <h3 class="text-xl font-semibold">Limitation of Liability</h3>
           YOU AGREE THAT, UNDER NO CIRCUMSTANCES, WE OR OUR RESPONSIBLE,
           DIRECTORS, EMPLOYEES OR RESPECTIVE AGENTS WILL BE LIABLE TO YOU FOR
           ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, PUNITIVE OR CONSEQUENTIAL
@@ -66,7 +66,7 @@
           THE CONTENT OR THE UNDERLYING SOFTWARE OF THE APP AND / OR (C)
           INTERRUPTION OR TERMINATION OF SERVICE OR TRANSMISSION OF THE APP.
 
-          <h3 class="text-lg font-semibold">General provisions</h3>
+          <h3 class="text-xl font-semibold">General provisions</h3>
           These Terms, and any rights or licenses granted or waived herein, may
           not be modified or assigned by you, but may be assigned by us without
           restriction. In the event that any provision is found to be
@@ -81,7 +81,7 @@
         </div>
       </div>
     </div>
-    <!--<Footer />-->
+    <Footer />
   </div>
 </template>
 

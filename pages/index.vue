@@ -1,7 +1,7 @@
 <template>
   <div class="gradient leading-relaxed tracking-wide flex flex-col">
     <Nav />
-    <div class="container mx-auto h-screen">
+    <div class="container mx-auto mb-8">
       <div class="text-center px-3 lg:px-0">
         <h1
           class="my-4 text-2xl md:text-3xl lg:text-5xl font-black leading-tight"
@@ -19,7 +19,32 @@
         >
           And learn on your daily impact
         </p>
-        <div class="bg-gray-100 rounded-xl p-8">test</div>
+        <div class="flex">
+          <div class="flex-1">
+            <div class="my-4 text-2xl md:text-3xl lg:text-5xl font-black">
+              Track your daily consume
+            </div>
+          </div>
+          <div class="flex-1 hidden md:block">
+            <img
+              class="w-1/3 p-1 bg-white rounded-xl"
+              src="~/assets/consume.png"
+            />
+          </div>
+        </div>
+        <div class="flex mt-10">
+          <div class="w-2/5 hidden md:block">
+            <img
+              class="object-right w-2/5 p-1 bg-white rounded-xl"
+              src="~/assets/trend.png"
+            />
+          </div>
+          <div class="w-3/5">
+            <div class="my-4 text-2xl md:text-3xl lg:text-5xl font-black">
+              Trend day by day
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <Footer />

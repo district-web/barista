@@ -3,7 +3,7 @@
     <div class="container mx-auto mt-8 px-8">
       <div class="w-full flex flex-col md:flex-row py-6">
         <div class="flex-1 mb-6">
-          <a
+          <NuxtLink
             class="
               text-orange-600
               no-underline
@@ -12,10 +12,10 @@
               text-2xl
               lg:text-4xl
             "
-            href="#"
+            to="/"
           >
             Barista - Caffeine tracker
-          </a>
+          </NuxtLink>
         </div>
         <!--
           <div class="flex-1">
