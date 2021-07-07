@@ -27,7 +27,7 @@
           </div>
           <div class="flex-1 hidden md:block">
             <img
-              class="w-1/3 p-1 bg-white rounded-xl"
+              class="w-1/3 p-1 bg-white rounded-xl mx-auto"
               src="~/assets/consume.png"
             />
           </div>
@@ -35,7 +35,7 @@
         <div class="flex mt-10">
           <div class="w-2/5 hidden md:block">
             <img
-              class="object-right w-2/5 p-1 bg-white rounded-xl"
+              class="object-right w-2/5 p-1 bg-white rounded-xl mx-auto"
               src="~/assets/trend.png"
             />
           </div>

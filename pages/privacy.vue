@@ -3,7 +3,7 @@
     <Nav />
     <div class="container mx-auto">
       <div class="px-3 lg:px-0">
-        <div class="bg-gray-100 rounded-xl p-8">
+        <div class="bg-gray-100 rounded-xl p-8 mb-8">
           <h1
             class="
               my-4
@@ -17,11 +17,12 @@
             Privacy
           </h1>
           Your privacy is paramount and that is why we do not collect any
-          personal information. We track the use of our application for
-          statistical purposes. You can deactivate this anonymous tracking at
-          any time in the app.
+          personal information. <br />
+          We track the use of our application for statistical purposes.<br />
+          You can deactivate this anonymous tracking at any time in the app.
         </div>
 
+        <!--
         <div class="bg-gray-100 rounded-xl p-8 mt-8 mb-8">
           <h2 class="text-xl font-bold">User Agreement</h2>
           <h3 class="text-xl font-semibold">Subscription</h3>
@@ -79,6 +80,7 @@
           included for convenience only and do not limit or otherwise affect
           these terms.
         </div>
+        -->
       </div>
     </div>
     <Footer />
