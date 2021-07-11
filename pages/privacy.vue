@@ -22,6 +22,32 @@
           You can deactivate this anonymous tracking at any time in the app.
         </div>
 
+        <div class="bg-gray-100 rounded-xl p-8 mb-8">
+          <h1
+            class="
+              my-4
+              text-2xl
+              md:text-3xl
+              lg:text-5xl
+              font-black
+              leading-tight
+            "
+          >
+            HealthKit Data
+          </h1>
+          If you choose to have Barista integrate with HealthKit then the
+          application will have access only to the health data types you opt-in
+          to access. Barista requests permission to write certain data types
+          into your HealthKit data store. The data read from HealthKit is used
+          solely within the app. It is not collected or disclosed outside of
+          your local installation of the the app. Only those data types relevant
+          to the app are accessed. The data read is used to update and saved to
+          the HealthKit store. In no case is your personal data ever transfered
+          to a 3rd party. It is only ever kept within the application container
+          of Barista or transfered to your personal HealthKit data store as per
+          your permission choices.
+        </div>
+
         <!--
         <div class="bg-gray-100 rounded-xl p-8 mt-8 mb-8">
           <h2 class="text-xl font-bold">User Agreement</h2>
