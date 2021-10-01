@@ -26,7 +26,12 @@
           "
           to="/"
         >
-          <img src="~/assets/cup.svg" height="32" width="32" style="display: inline"/>
+          <img
+            src="~/assets/cup.svg"
+            height="32"
+            width="32"
+            style="display: inline"
+          />
           Barista - Caffeine tracker
         </NuxtLink>
       </div>
