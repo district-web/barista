@@ -30,6 +30,7 @@ jobs:
           AWS_CONFIG: ${{ secrets.AWS_CONFIG }}
           AWS_CRED: ${{ secrets.AWS_CRED }}
         run: |
+          mkdir ~/.aws
           touch ~/.aws/config
           touch ~/.aws/credentials
           echo "$AWS_CONFIG" >> ~/.aws/config
