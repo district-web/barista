@@ -21,6 +21,16 @@ jobs:
       - name: Install dependencies 👨🏻‍💻
         run: npm install
 
-      - name: Run build 👀
+      - name: Run build 🔨
         run: npm run build
+
+      - uses: shallwefootball/s3-upload-action@master
+        name: Upload S3 🚀
+        id: S3
+        with:
+          aws_key_id: ${{ secrets.AWS_KEY_ID }}
+          aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY}}
+          aws_bucket: ${{ secrets.AWS_BUCKET }}
+          endpoint: ${{ secrets.AWS_ENDPOINT }}
+          source_dir: 'dist'
 
