@@ -1,0 +1,140 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Nav from '../components/Nav.astro';
+import Phone from '../components/Phone.astro';
+import consume from '../assets/consume.png';
+import trend from '../assets/trend.png';
+import { Image } from 'astro:assets';
+import AppStoreButton from '../components/AppStoreButton.astro';
+---
+
+<Layout title="Barista - Caffeine tracker">
+	<div class="gradient leading-relaxed tracking-wide">
+		<Nav/>
+		<div class="container mx-auto mb-8"></div>
+		<div class="container mx-auto flex">
+		  <div class="">
+			<Phone>
+				<Image class="iphoneScreen" src={consume} alt="home screen"/>
+			</Phone>
+		  </div>
+		  <div class="px-10">
+			<div class="text-left px-3 lg:px-0">
+			  <h1
+				class="
+				  my-4
+				  text-2xl
+				  md:text-3xl
+				  lg:text-5xl
+				  font-black
+				  leading-tight
+				"
+			  >
+				Start track your caffeine consume
+			  </h1>
+			  <p
+				class="
+				  leading-normal
+				  text-gray-800 text-base
+				  md:text-xl
+				  lg:text-2xl
+				  mb-8
+				"
+			  >
+				And learn on your daily impact
+			  </p>
+			</div>
+			<div class="my-4 text-2xl md:text-2xl lg:text-2xl font-black">
+			  Track your daily consume
+			</div>
+			<AppStoreButton>
+			
+		  </div>
+		</div>
+	
+		<div class="container mx-auto mb-8">
+		  <div class="text-center px-3 lg:px-0">
+			<div class="flex mt-10">
+			  <div class="w-3/5">
+				<div class="my-4 text-2xl md:text-3xl lg:text-5xl font-black">
+				  Trend day by day
+				</div>
+			  </div>
+			  <div class="w-2/5 hidden md:block">
+				<Phone>
+					<Image class="iphoneScreen" src={trend} alt="trend screen"/>
+				</Phone>
+			  </div>
+			</div>
+		  </div>
+		</div>
+
+	  </div>
+</Layout>
+
+<style>
+	@import url('https://rsms.me/inter/inter.css');
+	html {
+	  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+		'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji',
+		'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+	}
+	
+	.iphone {
+	  background-image: url('/black.png');
+	  grid-row-start: p;
+	  grid-column-start: p;
+	  grid-row-end: p;
+	  grid-column-end: p;
+	  background-size: 400px;
+	  height: 875px;
+	  width: 410px;
+	  background-repeat: no-repeat;
+	  padding-top: 26px;
+	}
+	
+	.iphoneScreen {
+	  width: 349px;
+	  clip-path: url('#screenMask');
+	  margin-left: 26px;
+	}
+	
+	.gradient {
+	  background-image: linear-gradient(-225deg, #cbbacc 0%, #2580b3 100%);
+	}
+	
+	button,
+	.gradient2 {
+	  background-color: #f39f86;
+	  background-image: linear-gradient(315deg, #f39f86 0%, #f9d976 74%);
+	}
+	
+	/* Browser mockup code
+	 * Contribute: https://gist.github.com/jarthod/8719db9fef8deb937f4f
+	 * Live example: https://updown.io
+	 */
+	
+	.browser-mockup {
+	  border-top: 2em solid rgba(230, 230, 230, 0.7);
+	  position: relative;
+	  height: 60vh;
+	}
+	
+	.browser-mockup:before {
+	  display: block;
+	  position: absolute;
+	  content: '';
+	  top: -1.25em;
+	  left: 1em;
+	  width: 0.5em;
+	  height: 0.5em;
+	  border-radius: 50%;
+	  background-color: #f44;
+	  box-shadow: 0 0 0 2px #f44, 1.5em 0 0 2px #9b3, 3em 0 0 2px #fb5;
+	}
+	
+	.browser-mockup > * {
+	  display: block;
+	}
+	</style>
+	
